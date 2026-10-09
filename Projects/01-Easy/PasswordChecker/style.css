@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    background: #f2f4f8;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+main {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    width: 340px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#password {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.meter {
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    margin: 12px 0 6px;
+    overflow: hidden;
+}
+
+#bar {
+    height: 100%;
+    width: 0;
+    transition: width 0.3s, background 0.3s;
+}
+
+li {
+    list-style: none;
+    color: #888;
+}
+
+li::before {
+    content: "✗ ";
+}
+
+li.pass {
+    color: green;
+}
+
+li.pass::before {
+    content: "✓ ";
+}
+

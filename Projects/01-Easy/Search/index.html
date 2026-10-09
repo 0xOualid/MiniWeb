@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="search-container">
+        <h1>Google Search</h1>
+
+        <form id="searchForm" action="https://www.google.com/search" method="get">
+            <div class="search-box">
+                <input id="searchInput" autofocus placeholder="Ask Google" name="q" type="search">
+
+                <button type="submit">Search</button>
+            </div>
+
+            <p id="errorMessage"></p>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+

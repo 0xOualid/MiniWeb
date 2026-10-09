@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    background: #f2f4f8;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+main {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    width: 360px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+.output {
+    display: flex;
+    gap: 8px;
+}
+
+#result {
+    flex: 1;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 6px;
+    background: #434b81;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #283593;
+}
+
+#generate {
+    width: 100%;
+    margin-top: 10px;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-top: 6px;
+}
+
+#message {
+    min-height: 1.2em;
+    color: #c62828;
+    font-size: 14px;
+}
+
