@@ -2,7 +2,7 @@ const form = document.getElementById("searchForm");
 const input = document.getElementById("searchInput");
 const errorMessage = document.getElementById("errorMessage");
 
-form.addEventListener("submit", function (event) {
+form.addEventListener("submit", (event) => {
     const query = input.value.trim();
 
     // Prevent empty searches
